@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Zadel</string>
+    <string name="welcomeText">Welcome to Zadel, please put your code below!</string>
 </resources>
