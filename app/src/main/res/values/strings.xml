@@ -2,6 +2,7 @@
     <string name="app_name">Zadel</string>
     <string name="welcomeText">Welcome to Zadel, please put your code below!</string>
     <string name="codeText">Type your code...</string>
-    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_login">Login</string>
     <string name="login">Login</string>
+    <string name="title_activity_contacts">Contacts</string>
 </resources>

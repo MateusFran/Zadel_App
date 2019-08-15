@@ -24,6 +24,7 @@
                     android:orientation="horizontal">
 
                 <Button
+                        android:id="@+id/changeToContacts"
                         android:layout_width="75dp"
                         android:layout_height="75dp"
                         android:layout_marginLeft="10dp"

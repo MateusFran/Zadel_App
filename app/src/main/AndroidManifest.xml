@@ -14,31 +14,30 @@
         <!-- Welcome Activity -->
         <activity
                 android:name=".WelcomeActivity"
-                android:theme="@style/AppTheme.NoActionBar"
-                android:screenOrientation="portrait">
+                android:screenOrientation="portrait"
+                android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
-        </activity>
-        <!-- -->
-
+        </activity> <!--  -->
         <!-- Login Activity -->
         <activity
                 android:name=".LoginActivity"
                 android:label="@string/title_activity_login"
-                android:theme="@style/AppTheme.NoActionBar"
-                android:screenOrientation="portrait">
-        </activity>
-        <!-- -->
-
+                android:screenOrientation="portrait"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity> <!--  -->
         <!-- Main Activity (Feed) -->
         <activity
                 android:name=".MainActivity"
                 android:theme="@style/AppTheme.NoActionBar"/>
 
-        <!-- -->
+        <activity
+                android:name=".ContactsActivity"
+                android:label="@string/title_activity_contacts">
+        </activity>
 
     </application>
 

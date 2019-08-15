@@ -1,5 +1,6 @@
 package com.nave.zadel
 
+import android.content.Intent
 import android.os.Bundle
 import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity;
@@ -13,7 +14,11 @@ class LoginActivity : AppCompatActivity() {
         setContentView(R.layout.activity_login)
 
 
-
+        already_have_account_text.setOnClickListener {
+            var intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
     }
 
 }
