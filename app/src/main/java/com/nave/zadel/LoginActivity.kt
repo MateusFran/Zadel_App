@@ -14,10 +14,16 @@ class LoginActivity : AppCompatActivity() {
         setContentView(R.layout.activity_login)
 
 
-        already_have_account_text.setOnClickListener {
-            var intent = Intent(this, MainActivity::class.java)
-            startActivity(intent)
-            finish()
+        login_button.setOnClickListener {
+
+            val email = email_login_input.text.toString()
+            val password = password_login_input.text.toString()
+
+            if(email == "123" && password == "123"){
+                var intent = Intent(this, MainActivity::class.java)
+                startActivity(intent)
+                finish()
+            }
         }
     }
 

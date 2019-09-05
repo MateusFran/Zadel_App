@@ -22,6 +22,14 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity> <!--  -->
+
+        <!-- Register Activity -->
+        <activity
+                android:name=".RegisterActivity"
+                android:screenOrientation="portrait"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
         <!-- Login Activity -->
         <activity
                 android:name=".LoginActivity"
@@ -29,14 +37,18 @@
                 android:screenOrientation="portrait"
                 android:theme="@style/AppTheme.NoActionBar">
         </activity> <!--  -->
+
         <!-- Main Activity (Feed) -->
         <activity
                 android:name=".MainActivity"
+                android:screenOrientation="portrait"
                 android:theme="@style/AppTheme.NoActionBar"/>
 
+        <!-- Contacts Activity -->
         <activity
                 android:name=".ContactsActivity"
-                android:label="@string/title_activity_contacts">
+                android:label="@string/title_activity_contacts"
+                android:screenOrientation="portrait">
         </activity>
 
     </application>

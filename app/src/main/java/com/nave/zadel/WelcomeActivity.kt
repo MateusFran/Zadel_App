@@ -17,7 +17,7 @@ class WelcomeActivity : AppCompatActivity() {
             var code = input_code.text.toString()
 
             if(code == "12345"){
-                var intent = Intent(this, LoginActivity::class.java)
+                var intent = Intent(this, RegisterActivity::class.java)
                 startActivity(intent)
                 finish()
             }
