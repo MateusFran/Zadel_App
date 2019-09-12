@@ -7,4 +7,5 @@
     <string name="title_activity_contacts">Contacts</string>
     <string name="selectPhoto">Select Photo</string>
     <string name="welcome_back">Welcome Back</string>
+    <string name="register">Register</string>
 </resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "393204162821",
+    "firebase_url": "https://zadel-58662.firebaseio.com",
+    "project_id": "zadel-58662",
+    "storage_bucket": "zadel-58662.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393204162821:android:d73be1fb8414398aacd76c",
+        "android_client_info": {
+          "package_name": "com.nave.zadel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "393204162821-1m9059hteuj9753vtg36b07mpnl40tth.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_8vY9UDQ2ZcGFcq1SESEM2X4yzjoGqdI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "393204162821-1m9059hteuj9753vtg36b07mpnl40tth.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
